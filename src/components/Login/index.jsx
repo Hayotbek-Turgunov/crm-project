@@ -6,6 +6,7 @@ import {
   Button,
   IconWrapper,
   Input,
+  LoginLink,
 } from "./style";
 import { FaEnvelope, FaLock } from "react-icons/fa";
 
@@ -35,6 +36,7 @@ const Login = () => {
           </IconWrapper>
           <Input type="password" placeholder="Enter your password" />
         </InputWrapper>
+        <LoginLink>Forgot password ?</LoginLink>
         <Button>Login</Button>
       </Wrapper>
     </Container>

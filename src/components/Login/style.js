@@ -45,6 +45,18 @@ Title.Label = styled(Title)`
   }
 `;
 
+export const LoginLink = styled.a`
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.005em;
+  text-align: left;
+  color: #8c8c8c;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+`;
+
 export const Input = styled.input`
   outline: none;
   height: 40px;
