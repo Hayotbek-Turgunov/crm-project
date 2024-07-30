@@ -8,6 +8,13 @@ export const Container = styled.div`
   height: 100vh;
 `;
 
+export const LoginDescription = styled.span`
+  font-size: 40px;
+  text-align: center;
+  font-weight: 600;
+  display: inline-block;
+`;
+
 export const Wrapper = styled.div`
   width: 380px;
   height: 414px;
