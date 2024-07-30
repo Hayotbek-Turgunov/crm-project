@@ -38,7 +38,7 @@ export const InputContainer = styled.div`
   border: 1px solid #ccc;
   border-radius: 8px;
   height: 40px;
-  width: 360px;
+  width: 375px;
 `;
 
 export const CountrySelectorWrapper = styled.div`
@@ -88,4 +88,23 @@ Title.Label = styled(Title)`
   margin-top: 20px;
   margin-bottom: 4px;
   font-weight: 800;
+  margin-bottom: 4px;
+`;
+
+export const Button = styled.button`
+  width: (390px);
+  height: (48px);
+  padding: 12px 18px;
+  gap: 4px;
+  border-radius: 8px;
+  border: 1px solid;
+  width: 100%;
+  color: #ffffff;
+  margin-top: 32px;
+  background-color: #1890ff;
+
+  &:hover {
+    cursor: pointer;
+    background-color: red;
+  }
 `;

@@ -7,6 +7,7 @@ import {
   FlagIcon,
   CountryCode,
   Input,
+  Button,
 } from "./style";
 
 const Reset = () => {
@@ -34,6 +35,7 @@ const Reset = () => {
           </CountrySelectorWrapper>
           <Input type="tel" placeholder="+998 90 000 00 00" />
         </InputContainer>
+        <Button>Reset Password</Button>
       </Wrapper>
     </Container>
   );
